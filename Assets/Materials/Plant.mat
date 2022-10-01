@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Plant
-  m_Shader: {fileID: -6465566751694194690, guid: 2c072116926b9e844a4a2b3585091576,
+  m_Shader: {fileID: -6465566751694194690, guid: 505053d5771aa9a4c847afda725f3ea7,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -97,6 +97,7 @@ Material:
     m_Floats:
     - Vector1_8606F96E: 0
     - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
     - _Blend: 0
     - _BlendOp: 0
     - _BumpScale: 1
@@ -128,6 +129,9 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
+    - _WiggleOffset: 0
+    - _WindSpeed: 1.2
+    - _WindStrength: 0.2
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
@@ -139,6 +143,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _WindDirection: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &4941297538139209057
 MonoBehaviour:
