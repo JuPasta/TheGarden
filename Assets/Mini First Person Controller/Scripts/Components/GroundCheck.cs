@@ -29,8 +29,8 @@ public class GroundCheck : MonoBehaviour
             Grounded?.Invoke();
         }
 
-        // Update isGrounded.
-        isGrounded = isGroundedNow;
+        // Update isGrounded. DISABLED FOR NOW
+        //isGrounded = isGroundedNow;
     }
 
     void OnDrawGizmosSelected()

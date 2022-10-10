@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1191875147409076718}
   - component: {fileID: 2820871525725388363}
   - component: {fileID: 54404922337184385}
+  - component: {fileID: 7338778700166797139}
   m_Layer: 0
   m_Name: Bush 3
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &7338778700166797139
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000078227806055252}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5578746
+  m_Height: 1.0135059
+  m_Direction: 1
+  m_Center: {x: 0.021879667, y: 0.14525564, z: -0.08510075}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6153420908347762470}
   - component: {fileID: 4110613158453397273}
   m_Layer: 0
-  m_Name: Foliage
+  m_Name: Foliage LOD 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,11 +26,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754775564485186428}
   m_LocalRotation: {x: 0.2614979, y: -0.71544796, z: 0.33877, w: 0.5522571}
-  m_LocalPosition: {x: -0.12369294, y: 3.2128832, z: -0.09844449}
-  m_LocalScale: {x: 0.8999996, y: 0.8999996, z: 0.8999997}
+  m_LocalPosition: {x: -0.12369294, y: 3.2128832, z: -0.098444484}
+  m_LocalScale: {x: 0.8999996, y: 0.89999956, z: 0.8999997}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2435862262858144715}
+  m_Father: {fileID: 7235969773010971557}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6153420908347762470
@@ -93,6 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2435862262858144715}
   - component: {fileID: 2978813141698154859}
+  - component: {fileID: -5609538865336012062}
   m_Layer: 0
   m_Name: Bamboo 2
   m_TagString: Untagged
@@ -112,8 +113,9 @@ Transform:
   m_LocalScale: {x: 0.9347281, y: 0.9347281, z: 0.9347281}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1575231205737267545}
-  - {fileID: 4363092500963469247}
+  - {fileID: 7235969773010971557}
+  - {fileID: 3348929851905580653}
+  - {fileID: 6480780897381708691}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -131,6 +133,68 @@ CapsuleCollider:
   m_Height: 4.8202763
   m_Direction: 1
   m_Center: {x: 0, y: 1.9101379, z: 0}
+--- !u!205 &-5609538865336012062
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3064202009256132977}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 2.56425, z: 0.047819376}
+  m_Size: 5.1285
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.8039273
+    fadeTransitionWidth: 0.482
+    renderers:
+    - renderer: {fileID: 1328786190035783576}
+    - renderer: {fileID: 4110613158453397273}
+  - screenRelativeHeight: 0.2045862
+    fadeTransitionWidth: 0.504
+    renderers:
+    - renderer: {fileID: 7961331050797743953}
+    - renderer: {fileID: 3945143124658062015}
+  - screenRelativeHeight: 0.029970173
+    fadeTransitionWidth: 0.504
+    renderers:
+    - renderer: {fileID: 6480780897381708688}
+  m_Enabled: 1
+--- !u!1 &3981936890689821001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7235969773010971557}
+  m_Layer: 0
+  m_Name: Bamboo 2 LOD 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7235969773010971557
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3981936890689821001}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1575231205737267545}
+  - {fileID: 4363092500963469247}
+  m_Father: {fileID: 2435862262858144715}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5031573566749556105
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,7 +208,7 @@ GameObject:
   - component: {fileID: 1328786190035783576}
   - component: {fileID: 5031573566749556104}
   m_Layer: 0
-  m_Name: bambouE001
+  m_Name: Trunk LOD 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,12 +221,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5031573566749556105}
-  m_LocalRotation: {x: -0.00000009735359, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.152457e-16, y: 0.049872346, z: 0.0019393563}
+  m_LocalRotation: {x: -0.00000009735359, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.04987229, z: 0.0019393563}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2435862262858144715}
+  m_Father: {fileID: 7235969773010971557}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2907508733936315559
@@ -230,3 +294,191 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5668788170693331272, guid: fc0f0fa7e508c2e4fbe4fe00b7c194e4, type: 3}
+--- !u!1001 &3022883510860249478
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2435862262858144715}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 700252743b127b04eaca07a597175aa5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 700252743b127b04eaca07a597175aa5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 700252743b127b04eaca07a597175aa5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 700252743b127b04eaca07a597175aa5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 700252743b127b04eaca07a597175aa5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 700252743b127b04eaca07a597175aa5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 700252743b127b04eaca07a597175aa5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 700252743b127b04eaca07a597175aa5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 700252743b127b04eaca07a597175aa5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 700252743b127b04eaca07a597175aa5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 700252743b127b04eaca07a597175aa5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7421033346236238759, guid: 700252743b127b04eaca07a597175aa5,
+        type: 3}
+      propertyPath: m_Name
+      value: Trunk LOD 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4747526574715048100, guid: 700252743b127b04eaca07a597175aa5,
+        type: 3}
+      propertyPath: m_Name
+      value: Foliage LOD 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 700252743b127b04eaca07a597175aa5,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo 2 LOD 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2255325176585812793, guid: 700252743b127b04eaca07a597175aa5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c10c6edb72ea61a4687a507ca0905b7a, type: 2}
+    - target: {fileID: 5156380648761706199, guid: 700252743b127b04eaca07a597175aa5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f3a532e8b8f89f445bc80d56513a84c9, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 700252743b127b04eaca07a597175aa5, type: 3}
+--- !u!4 &3348929851905580653 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 700252743b127b04eaca07a597175aa5,
+    type: 3}
+  m_PrefabInstance: {fileID: 3022883510860249478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3945143124658062015 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2255325176585812793, guid: 700252743b127b04eaca07a597175aa5,
+    type: 3}
+  m_PrefabInstance: {fileID: 3022883510860249478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7961331050797743953 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5156380648761706199, guid: 700252743b127b04eaca07a597175aa5,
+    type: 3}
+  m_PrefabInstance: {fileID: 3022883510860249478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8964252551767085949
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2435862262858144715}
+    m_Modifications:
+    - target: {fileID: 2708695068308775148, guid: 6080eae26856742448fcf778a05090c7,
+        type: 3}
+      propertyPath: m_Name
+      value: Bamboo 2 Sprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708695068308775150, guid: 6080eae26856742448fcf778a05090c7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708695068308775150, guid: 6080eae26856742448fcf778a05090c7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708695068308775150, guid: 6080eae26856742448fcf778a05090c7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708695068308775150, guid: 6080eae26856742448fcf778a05090c7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708695068308775150, guid: 6080eae26856742448fcf778a05090c7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708695068308775150, guid: 6080eae26856742448fcf778a05090c7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708695068308775150, guid: 6080eae26856742448fcf778a05090c7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708695068308775150, guid: 6080eae26856742448fcf778a05090c7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708695068308775150, guid: 6080eae26856742448fcf778a05090c7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708695068308775150, guid: 6080eae26856742448fcf778a05090c7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708695068308775150, guid: 6080eae26856742448fcf778a05090c7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6080eae26856742448fcf778a05090c7, type: 3}
+--- !u!212 &6480780897381708688 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 2708695068308775149, guid: 6080eae26856742448fcf778a05090c7,
+    type: 3}
+  m_PrefabInstance: {fileID: 8964252551767085949}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6480780897381708691 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2708695068308775150, guid: 6080eae26856742448fcf778a05090c7,
+    type: 3}
+  m_PrefabInstance: {fileID: 8964252551767085949}
+  m_PrefabAsset: {fileID: 0}

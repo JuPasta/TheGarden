@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: cd4cddf2ba9301649b78bcfba3d320a1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -1
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Ghibli
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5d8f681ca041993418236bcdfca5877c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

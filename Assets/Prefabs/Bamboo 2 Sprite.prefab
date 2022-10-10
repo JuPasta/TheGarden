@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2708695068308775150}
   - component: {fileID: 2708695068308775149}
+  - component: {fileID: 1398072241925539086}
   m_Layer: 0
-  m_Name: Bamboo Sprite 1
+  m_Name: Bamboo 2 Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: faf487dc4b68efb4d813c1005b383518, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66d8949a47b794c44bfa2179c198bf2f, type: 3}
   m_Color: {r: 0.79237497, g: 0.8301887, b: 0.6688501, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -84,3 +85,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1398072241925539086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708695068308775148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: becbebf577e946e45b2fccd70900f18f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
